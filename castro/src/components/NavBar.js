@@ -55,11 +55,10 @@ class NavBar extends Component{
                             <div className="top-bar-left-wrapper">
                                 <div className="social-links social-links--white-topbar d-inline-block">
                                 <ul>
-                                    <li><a href="//facebook.com"><i className="zmdi zmdi-facebook" /></a></li>
-                                    <li><a href="//twitter.com"><i className="zmdi zmdi-twitter" /></a></li>
-                                    <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li>
-                                    <li><a href="//linkedin.com"><i className="zmdi zmdi-linkedin-box" /></a></li>
-                                    <li><a href="//skype.com"><i className="zmdi zmdi-skype" /></a></li>
+                                    <li><a href="https://www.facebook.com/nevadacloud"><i className="zmdi zmdi-facebook" /></a></li>
+                                    <li><a href="https://www.youtube.com/@spectrumsoftware"><i className="zmdi zmdi-youtube-play" /></a></li>
+                                    {/* <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li> */}
+                                    <li><a href="https://www.linkedin.com/company/nevada-cloud/?originalSubdomain=za"><i className="zmdi zmdi-linkedin-box" /></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -67,7 +66,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">GET A QUOTE</a>
+                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Get In Touch With A Expert</a>
                             </div>
                             </div>
                         </div>
@@ -103,7 +102,7 @@ class NavBar extends Component{
                                         </div>
                                         <div className="header-info-single-item__content">
                                         <h6 className="header-info-single-item__title">Address</h6>
-                                        <p className="header-info-single-item__subtitle">your address goes here</p>
+                                        <p className="header-info-single-item__subtitle">190 Circular Dr, Lorraine, Gqeberha, 6070</p>
                                         </div>
                                     </div>
                                     </div>
