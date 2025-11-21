@@ -78,12 +78,15 @@ class Footer extends Component {
                             </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>EyevaultEHR</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>
+                              EyevaultEHR
+                            </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>LuminaBlue</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>
+                              LuminaBlue
+                            </a>
                           </li>
-                          
                         </ul>
                       </div>
                     </div>
@@ -146,8 +149,7 @@ class Footer extends Component {
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
               <p className="copyright-text">
-                &copy; Castro {new Date().getFullYear()} Made With <i className="fa fa-heart"></i> By
-                HasThemes
+                &copy; NevadaCloud {new Date().getFullYear()}
               </p>
             </div>
           </div>
